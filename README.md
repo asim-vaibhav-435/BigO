@@ -3,8 +3,8 @@ Data Structure
 <html>
 <body>
   <h2 id="chartTitle">Big-O Complexity Chart</h2>  
- <!-- for webpage scrapers
- <img id="chart" src="img/big-o-complexity-chart.png" /> -->
+ 
+ <img id="chart" src="img/big-o-complexity-chart.png" /> 
  
  <div>
    <table id="legend" class="table">
