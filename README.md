@@ -14,10 +14,16 @@ There are different types of Big Os
 2. O(log N) - > #learning
 3. O(n) -> Linear (for loops, while loops through n times ) 
 4. O(n log (n)) -> #learning
-5. O(n^2) -> Quadratic. When every elements in a collection which needs to be compared to every other element in an array is O(n^2) or when there are two nested loops.
+5. O(n^2) -> Quadratic. When two nested loops are
 6. O(2^n) -> #learning
+7. O(n!) -> #learning
 
+What causes space complexity?
 
+1.Variables
+2.Data Structures
+3.Function call
+4.Algorithm
 
 Rules to considers. 
 
