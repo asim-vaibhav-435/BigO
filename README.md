@@ -31,8 +31,10 @@ Rules to considers.
 
 1. Always worst Case
 2. Remove Constants
-3. Different inputs should have different variables: O(a + b) & A and B arrays nested would be: O(a * b)
-   + for steps in order
-   * for nested steps
-4. Drop Non-dominant terms
+   + E.x. -> If getting O(3n+5+b) is equivalent to O(n)
+4. Different inputs should have different variables: A and B 
+   + for steps in order O(a + b)
+   * for nested steps O(a * b)
+5. Drop Non-dominant terms
+   + like if BIG O(3n+n^2) is equivalent to BIG O(n^2), as n^2 is a dominant term.
 </p>
