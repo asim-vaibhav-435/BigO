@@ -1,34 +1,30 @@
 # BigO
 Data Structure
-<html>
-<head>
-<title>Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell</title>
-    
-<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
-  </head>
-<body>
-  <h2 id="chartTitle">Big-O Complexity Chart</h2>  
- 
- <img id="chart" src="img/big-o-complexity-chart.png" /> 
- 
- <div>
-   <table id="legend" class="table">
-     <tbody>
-       <tr>
-         <td><code class="red">Horrible</code></td>
-         <td><code class="orange">Bad</code></td>
-         <td><code class="yellow">Fair</code></td>
-         <td><code class="yellow-green">Good</code></td>
-         <td><code class="green">Excellent</code></td>
-       </tr>
-     </tbody>
-   </table> 
- </div>
-  <div>
-    <svg id="chart" width="800" height="500" xmlns="http://www.w3.org/2000/svg"> <!-- horrible region -->  <path d="M50 450 L 50 0 L 800 0 L 800 450 Z" fill="#ff8989"/> <!-- bad region --> <path d="M50 450 L 800 0 L 800 450 Z" fill="#FFC543"/> <!-- fair region --> <path d="M50 450 L 800 450 L 800 330 Z" fill="yellow"/> <!-- good region --> <path d="M50 450 L 800 450 L 800 410 Z" fill="#C8EA00"/> <!-- excellent region --> <path d="M50 450 L 800 450 L 800 440 Z" fill="#53d000"/> <path d="M50 0 L 50 450 L 800 450" fill="transparent" stroke="black" stroke-width="2"/> <path d="M50 448 L 800 448" fill="transparent" stroke="black" stroke-width="2"/> <text x="700" y="438" fill="black">O(log n), O(1)</text> <path d="M50 450 L 800 400" fill="transparent" stroke="black" stroke-width="2"/> <text x="760" y="390" fill="black">O(n)</text><path d="M50 450 Q 400 350, 800 150" fill="transparent" stroke="black" stroke-width="2"/> <text x="630" y="190" fill="black">O(n log n)</text> <path d="M50 450 Q 180 380, 250 0" fill="transparent" stroke="black" stroke-width="2"/> <text x="260" y="30" fill="black">O(n^2)</text> <path d="M50 450 C 100 430, 120 350, 120 0" fill="transparent" stroke="black" stroke-width="2"/> <text x="125" y="20" fill="black">O(2^n)</text> <path d="M50 450 C 80 450, 80 350, 80 0" fill="transparent" stroke="black" stroke-width="2"/> <text x="80" y="20" fill="black">O(n!)</text> <text x="0" y="0" transform="translate(30 230) rotate(-90)" style="dominant-baseline: middle; text-anchor: middle; font-size:20px; color: #555; font-size:20px; color: #555; font-style: italic;" fill="black">Operations</text><text x="0" y="0" transform="translate(420 470)" style="dominant-baseline: middle; text-anchor: middle; font-size:20px; color: #555; font-style: italic;" fill="black">Elements</text>
-</svg>
-</div>
-</body>   
-</html>
+ <p align="center"> <a href = "https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/"> <img src = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/mypic.png"> </p> </a>
 
+<p align="center" style="font-size:16px; color:lightgreen;"> 
+BIG O - Asymptotic Notation </p>
+
+<p align="center"> It's basically used to measure the performance i.e the time complexity or space complexity required on your code </p>
+ 
+
+There are different types of Big Os 
+
+1. O(1) -> Constant with no loops. Only one element is operated from an array, no matter how big.  
+2. O(log N) - > #learning
+3. O(n) -> Linear (for loops, while loops through n times ) 
+4. O(n log (n)) -> #learning
+5. O(n^2) -> Quadratic. When every elements in a collection which needs to be compared to every other element in an array is O(n^2) or when there are two nested loops.
+6. O(2^n) -> #learning
+
+
+
+Rules to considers. 
+
+1. Always worst Case
+2. Remove Constants
+3. Different inputs should have different variables: O(a + b) & A and B arrays nested would be: O(a * b)
+   + for steps in order
+   * for nested steps
+4. Drop Non-dominant terms
+</p>
