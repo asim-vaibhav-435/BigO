@@ -11,11 +11,11 @@ BIG O - Asymptotic Notation </p>
 
 There are different types of Big Os 
 
-1. O(1) -> Constant with no loops. Only one element is operated from an array, no matter how big.  
+1. O(1) -> for a single operation in an function. example assignning a to a variable.  
 2. O(log N) - > #learning
 3. O(n) -> Linear (for loops, while loops through n times ) 
 4. O(n log (n)) -> #learning
-5. O(n^2) -> Quadratic. When two nested loops are
+5. O(n^2) -> Quadratic. When two nested loops are are of 'n' operations than.
 6. O(2^n) -> #learning
 7. O(n!) -> #learning
 
