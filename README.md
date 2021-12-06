@@ -1,5 +1,6 @@
 # BigO
 Data Structure
+<br>
  <p align="center"> <a href = "https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/"> <img src = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/mypic.png"> </p> </a>
 
 <p align="center" style="font-size:16px; color:lightgreen;"> 
@@ -20,10 +21,11 @@ There are different types of Big Os
 
 What causes space complexity?
 
-1.Variables
-2.Data Structures
-3.Function call
-4.Algorithm
+
+1. Variables
+2. Data structures
+3. Functiuon call
+4. Algorithm
 
 Rules to considers. 
 
